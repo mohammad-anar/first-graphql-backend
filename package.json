@@ -1,0 +1,26 @@
+{
+  "name": "graphQL-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.1",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/express5": "^1.1.2",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "graphql": "^16.14.1"
+  },
+  "devDependencies": {
+    "tsc-watch": "^7.2.0",
+    "typescript": "^6.0.3"
+  }
+}
